@@ -6,7 +6,10 @@ import Masthead from '../components/masthead'
 export default function Home() {
   return (
     <>
-      <div className='font-bold text-9xl'> Hello </div>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
+
 
       <Masthead />
 
